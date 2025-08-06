@@ -1,6 +1,6 @@
 import textwrap
 
-class box:
+class pltBox:
 	def __init__(self, title: str, *content: str):
 		self.title = title
 		self.items = list(content)
