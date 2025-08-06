@@ -1,6 +1,5 @@
 class pltTable:
-	def __init__(self, title: str, headers: list[str], *data: list[str]):
-		self.title = title
+	def __init__(self, headers: list[str], *data: list[str]):
 		self.headers = headers
 		self.data = list(data)
 
@@ -28,5 +27,3 @@ class pltTable:
 
 	def __call__(self):
 		return self.draw()
-		# return max([len(i) for i in ([self.headers[1]] + [item[1] for item in self.data])])
-		# return ([self.headers[1]] + [item[1] for item in self.data])
