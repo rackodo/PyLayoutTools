@@ -1,4 +1,4 @@
-<img width="2100" height="616" alt="pylayouttools" src="https://github.com/user-attachments/assets/d3ec7f95-d69f-4a8f-be60-102e45c5144c" />
+<img width="2100" alt="pylayouttools" src="https://github.com/user-attachments/assets/d3ec7f95-d69f-4a8f-be60-102e45c5144c" />
 
 # PyLayoutTools (PLT)
 Simple library for organising text into boxes and tables.
